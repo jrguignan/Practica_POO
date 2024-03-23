@@ -1,11 +1,11 @@
 # Práctica - Progamación Orientada a Objetos
 <p align="center">
-<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/programador.gif"  height=300>
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/programador.gif"  height=250>
 </p>
 
 ## Clase y Objeto 
 
-Clase: la receta que se debe seguir para construir un objeto. Nos perminte definir las caracteristicas del objeto y todo lo referencte a éste.
+Clase: la receta que se debe seguir para construir un objeto. Nos perminte definir las caracteristicas del objeto y todo lo referencie a éste.
 
 ```python
 #ejemlo de clase
