@@ -24,14 +24,14 @@ celular1 = Celular() # instamciar o crear una instacion de la clase.
 print(celular1.marca) # muestro la propiedad marca del objeto celular1
 ```
 
-Atributo: Son las propiedades o características de los objetos.
+Atributos: Son las propiedades o características de los objetos.
 
 ```python
 #ejemlo nuevo con atributos instanciables, no estáticos
 class Celular():
     def __init__(self, Marca, Camara, Color): #método constructor, self hace referencia a si mismo.
     self.marca = Marca  
-    self.camara = ]Camara 
+    self.camara = Camara 
     self.color = Color
 
 celular1 = Celular("Applet","45mp", "Gris") #Instanciar con    
@@ -40,8 +40,7 @@ celular1 = Celular("Applet","45mp", "Gris") #Instanciar con
 # Marca,Camara,Color son los valores que se pasan al instanciar el objeto 
 ```
 
-Método: Es una función que se aplica al objeto a travez de los atributos
-
+Métodos: Son acciones de los objetos, es una función dentro de una clase. 
 
 
 
