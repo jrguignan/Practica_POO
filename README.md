@@ -1,5 +1,7 @@
-# Practica_POO
-Repositorio donde exploro a fondo la progamación orientada a objetos
+# Práctica - Progamación Orientada a Objetos
+<p align="center">
+<img src="https://github.com/jrguignan/Proyecto-Nails_Salon-Yelp/blob/main/images/programador.gif"  height=300>
+</p>
 
 ## Clase y Objeto 
 
@@ -29,18 +31,36 @@ Atributos: Son las propiedades o características de los objetos.
 ```python
 #ejemlo nuevo con atributos instanciables, no estáticos
 class Celular():
-    def __init__(self, Marca, Camara, Color): #método constructor, self hace referencia a si mismo.
+    def __init__(self, Marca, Camara, Color): #método especial (constructor), self hace referencia a si mismo.
     self.marca = Marca  
     self.camara = Camara 
     self.color = Color
 
-celular1 = Celular("Applet","45mp", "Gris") #Instanciar con    
+celular1 = Celular("Applet","45mp", "Gris") #Instanciar objeto  
 
 # marca,camara,color son los atributos de la clase   
 # Marca,Camara,Color son los valores que se pasan al instanciar el objeto 
 ```
 
 Métodos: Son acciones de los objetos, es una función dentro de una clase. 
+
+```python
+#ejemlo nuevo con atributos instanciables, no estáticos
+class Celular():
+    def __init__(self, Marca, Camara, Color): #método constructor, self hace referencia a si mismo.
+    self.marca = Marca  
+    self.camara = Camara 
+    self.color = Color
+#metodo llamar
+def llamar(self):
+    print(f"Esta hacieno una llamada desde:{self.modelo}")
+
+celular1 = Celular("Applet","45mp", "Gris") #Instanciar objeto 
+
+#aplicar el metodo al objeto
+modelo1.llamar()    
+
+
 
 
 
