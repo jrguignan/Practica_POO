@@ -14,25 +14,37 @@ class Celular():
     color = "]Negro"
 ```
 
-Objeto: Es una instancia de la clase, puedo crear cualquier cantidad. En en el ejemlo sería un celular con las 3 características dadas definidas.
+Objeto: Es una instancia de la clase, puedo crear cualquier cantidad. En en el ejemplo sería un celular con las 3 características dadas definidas.
 
 Instanciar: crear una objeto.
 
 ```python
 #ejemlo de clase
-celular1 = Celular() # instamciar o crear una instacion de la clase. no recibe entradas porque los atributos son estáticos.
-print(celular1) #El objeto esta cread
-print(celular1.marca) # saco la informacion de la marca
+celular1 = Celular() # instamciar o crear una instacion de la clase.
+print(celular1.marca) # muestro la propiedad marca del objeto celular1
 ```
 
-Atributo: Una propiedad o característica del objeto.
+Atributo: Son las propiedades o características de los objetos.
 
-Método: Es una función que se aplica al objeto
+```python
+#ejemlo nuevo con atributos instanciables, no estáticos
+class Celular():
+    def __init__(self, Marca, Camara, Color): #método constructor, self hace referencia a si mismo.
+    self.marca = Marca  
+    self.camara = ]Camara 
+    self.color = Color
+
+celular1 = Celular("Applet","45mp", "Gris") #Instanciar con    
+
+# marca,camara,color son los atributos de la clase   
+# Marca,Camara,Color son los valores que se pasan al instanciar el objeto 
+```
+
+Método: Es una función que se aplica al objeto a travez de los atributos
 
 
 
-## Atributo
-## Método
+
 ## Herencia
 ### Herencia Multiple
 ### MRO
