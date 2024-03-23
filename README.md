@@ -1,6 +1,6 @@
 # Práctica - Progamación Orientada a Objetos
 <p align="center">
-<img src="https://github.com/jrguignan/Proyecto-Nails_Salon-Yelp/blob/main/images/programador.gif"  height=300>
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/programador.gif"  height=300>
 </p>
 
 ## Clase y Objeto 
