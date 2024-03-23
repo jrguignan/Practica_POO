@@ -59,6 +59,7 @@ celular1 = Celular("Applet","45mp", "Gris") #Instanciar objeto
 
 #aplicar el metodo al objeto
 modelo1.llamar()    
+```
 
 
 
