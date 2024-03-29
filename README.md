@@ -32,7 +32,6 @@ Atributos: Son las propiedades o características de los objetos.
 #Ejemlo nuevo con atributos instanciables, no estáticos
 class Celular():
     #método especial (constructor), self hace referencia a si mismo.
-    
     def __init__(self, Marca, Camara, Color):  
         self.marca = Marca     
         self.camara = Camara 
@@ -83,10 +82,48 @@ class Trabajador(Persona):
 
 #Se puede instanciar la clase Trabajador, 
 #con los atributos de la clase Persona
-trabajador1 = Trabajador("José",25,"Peruano")
+jose = Trabajador("José",25,"Peruano")
+
+#Se pueden llamar los atributos
+jose.edad
+```
+### Herencia Simple
+Cuando una **clase hija** hereda de una única **clase padre**
+
+``` python
+#Ejemplo: Herencia Simple
+class Persona:
+    def __init__(self, nombre,edad,nacionalidad):
+        self.nombre = nombre
+        self.edad = edad
+        self.nacionalidad = nacionalidad
+
+    def hablar(self):
+          return "La persona habla"    
+
+#La clase trabajador, está heredando el atributo nombre y edad
+class Trabajador(Persona):
+      def __init__(self,nombre,edad,nacionalidad, puesto,salario):
+          #super nos permnite heredar sin nombrar al padre
+          super().__init__(nombre,edad,nacionalidad)
+          self.puesto=puesto
+          self.salario=salario
+
+      #reescribe el metodo habar heredado    
+      def hablar(self):
+          return "La persona habla cuando quiere"     
+
+
+trabajador1 = Trabajador("Pedro",25,"chilena","Psicólogo",2500)               
+trabajador1.hablar()           
 ```
 
 ### Herencia Multiple
+``` python
 
+```
 
 ### MRO
+``` python
+
+```
