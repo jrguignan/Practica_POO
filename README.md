@@ -13,7 +13,7 @@ class Celular():
     #Atributos estáticos
     marca = "Samsung"
     camara = "48mp"
-    color = "]Negro"
+    color = "Negro"
 ```
 
 Objeto: Es una instancia de la clase, puedo crear cualquier cantidad. En en el ejemplo sería un celular con las 3 características dadas definidas.
