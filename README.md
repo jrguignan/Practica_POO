@@ -31,10 +31,12 @@ Atributos: Son las propiedades o características de los objetos.
 ```python
 #Ejemlo nuevo con atributos instanciables, no estáticos
 class Celular():
-    def __init__(self, Marca, Camara, Color): #método especial (constructor), self hace referencia a si mismo.
-    self.marca = Marca  
-    self.camara = Camara 
-    self.color = Color
+    #método especial (constructor), self hace referencia a si mismo.
+    
+    def __init__(self, Marca, Camara, Color):  
+        self.marca = Marca     
+        self.camara = Camara 
+        self.color = Color
 
 celular1 = Celular("Applet","45mp", "Gris") #Instanciar objeto  
 
@@ -48,12 +50,12 @@ Métodos: Son acciones de los objetos, es una función dentro de una clase.
 #Ejemplo nuevo con atributos instanciables, no estáticos
 class Celular():
     def __init__(self, Marca, Camara, Color): #método constructor, self hace referencia a si mismo.
-    self.marca = Marca  
-    self.camara = Camara 
-    self.color = Color
+        self.marca = Marca  
+        self.camara = Camara 
+        self.color = Color
 #Método llamar
-def llamar(self):
-    print(f"Esta hacieno una llamada desde:{self.modelo}")
+   def llamar(self):
+       print(f"Esta hacieno una llamada desde:{self.modelo}")
 
 celular1 = Celular("Applet","45mp", "Gris") #Instanciar objeto 
 
