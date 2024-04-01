@@ -176,7 +176,11 @@ print(persona.presentarse_hija())
 #>Mi habilidad es: Pintar, clase hija
 ```
 
-### MRO
+### MRO - Método de Resolución de Orden
+Hace referencia a como se buscan los métodos y los atributos en las clases. Da el orden de cuales son los metodo y atributos que hereda una clase hija de una clase padre.
+
+*Nota:* print(clase.mro()) -> muestra los caminos de herencia de clase.
+
 ``` python
 
 ```
