@@ -177,7 +177,7 @@ print(persona.presentarse_hija())
 ```
 
 ### MRO - Método de Resolución de Orden
-Hace referencia a como se buscan los métodos y los atributos en las clases. Da el orden de cuales son los metodo y atributos que hereda una clase hija de una clase padre.
+Hace referencia a como se buscan los métodos y los atributos en las clases. Da el orden de cuales son los métodos y atributos que heredad las **clases hijas** de las **clases padres**.
 
 *Nota:* print(clase.mro()) -> muestra los caminos de herencia de clase.
 
