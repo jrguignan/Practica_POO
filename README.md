@@ -265,16 +265,41 @@ Generar resultados diferentes a partir de un mismo método. Al aplicar un mismo 
 
 ### Paramétrico
 ```python
+#Ejemplo polimorfismo paramétrico
+class Perro():
+    def sonido(self):
+        return "Guau"
+    
+class Gato():
+    def sonido(self):
+        return "Miau"    
+    
+gato=Gato()
+perro=Perro()
+
+#Usando el mismo metodo obtengo dirente sonido
+print(perro.sonido())
+#>Guau
+print(gato.sonido())
+#>Miau
+
+#Usando la misma funcion obtengo dirente sonido
+def hacer_sonido(animal):
+    print(animal.sonido())
+
+hacer_sonido(gato)
+#>Miau
+
+hacer_sonido(perro)
+#>Guau
 
 ```
 
-
-
-### Herencia
+###  Herencia o Subclases
 ```python
 
 ```
-existen más tipos de polimorfismo baso el mismo pricipio.
+existen más tipos de polimorfismo baso el mismo principio.
 
 ## Encapsulamiento
 
