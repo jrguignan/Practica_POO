@@ -215,8 +215,10 @@ print(E.mro())
 #>[<class '__main__.E'>, <class '__main__.C'>, <class '__main__.A'>, <class '__main__.D'>, <class '__main__.B'>, <class 'object'>]    
 ```
 <p align="center">
-<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO.png"  height=100>
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO.png"  height=150>
 </p>
+
+
 
 ## Polimorfismo
 
