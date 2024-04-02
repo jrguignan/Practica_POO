@@ -218,6 +218,44 @@ print(E.mro())
 <img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO.png"  height=150>
 </p>
 
+Primero se busca e método en E, al no encontrarlo pasa a C, porque E hereda primero de C y luego de D, luego sigue buscando la rama de c, hasta encontrarla en A. Si no lo encotrara en A, seguiria a C hasta buscan en B.
+
+``` python
+#Ejemplo MRO 2
+class A():
+    def hablar(self):
+        return "Habla desde A"
+    
+class B():
+    def hablar(self):
+        return "Habla desde B"   
+
+class C(A,B):
+    pass
+    # def hablar(self):
+    #     return "Habla desde C"     
+    
+class D(B):
+    pass
+    # def hablar(self):
+    #     return "Habla desde D"
+
+class E(D,C):
+    pass
+    # def hablar(self):
+    #     return "Habla desde E"    
+
+objeto = E()
+print(objeto.hablar())  
+#>'Habla desde A'
+
+print(E.mro())  
+#>[<class '__main__.E'>, <class '__main__.D'>, <class '__main__.C'>, <class '__main__.A'>, <class '__main__.B'>, <class 'object'>]
+
+``` 
+<p align="center">
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO2.png"  height=150>
+</p>
 
 
 ## Polimorfismo
