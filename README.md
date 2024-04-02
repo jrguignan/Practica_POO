@@ -218,7 +218,7 @@ print(E.mro())
 <img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO.png"  height=150>
 </p>
 
-Primero se busca e método en E, al no encontrarlo pasa a C, porque E hereda primero de C y luego de D, luego sigue buscando la rama de c, hasta encontrarla en A. Si no lo encotrara en A, seguiria a C hasta buscan en B.
+Primero se busca e método en E, al no encontrarlo pasa a C, porque E hereda primero de C y luego de D, luego sigue buscando la rama de c, hasta encontrarla en A. Si no lo encotrara en A, seguiria a D hasta buscan en B.
 
 ``` python
 #Ejemplo MRO 2
@@ -257,6 +257,7 @@ print(E.mro())
 <img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO2.png"  height=150>
 </p>
 
+Primero se busca el método en E, Luego debería buscar primero en D y luego en C, pero al tener como herencia comun B, para D y C, primero busca en C y luego en A, si no consigue el método ya busca en B. 
 
 ## Polimorfismo
 
