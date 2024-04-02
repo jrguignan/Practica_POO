@@ -261,4 +261,6 @@ Primero se busca el método en E, Luego debería buscar primero en D y luego en 
 
 ## Polimorfismo
 
+Generar resultados diferentes a partir de un mismo método. Al aplicar un mismo método a diferentes objetos se consigue respuestas distintas. Por ejemplo el metodo hacer_sonido aplicado a un perro sería "guau" y aplicado a una vaca sería "muuu".
+
 ## Encapsulamiento
