@@ -294,10 +294,31 @@ hacer_sonido(perro)
 #>Guau
 
 ```
+Estos ejemplos sirven en python por ser de tipado dinámico, pero en otro lenguajes, se debe utilizar la herencia para llevarlos acabo.
 
 ###  Herencia o Subclases
 ```python
+#Ejemplo polimorfismo de herencia
+class Animal():
+    def sonido(self):
+        pass
 
+class Perro(Animal):
+    def sonido(self):
+        return "Guau"
+    
+class Gato(Animal):
+    def sonido(self):
+        return "Miau"    
+    
+gato=Gato()
+perro=Perro()
+
+#Usando el mismo metodo obtengo dirente sonido
+print(perro.sonido())
+#>Guau
+print(gato.sonido())
+#>Miau
 ```
 existen más tipos de polimorfismo baso el mismo principio.
 
