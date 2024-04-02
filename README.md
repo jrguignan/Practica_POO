@@ -179,8 +179,45 @@ print(persona.presentarse_hija())
 ### MRO - Método de Resolución de Orden
 Hace referencia a como se buscan los métodos y los atributos en las clases. Da el orden de cuales son los métodos y atributos que heredad las **clases hijas** de las **clases padres**.
 
-*Nota:* print(clase.mro()) -> muestra los caminos de herencia de clase.
+*Nota:* print( clase.mro() ) -> muestra los caminos de herencia de clase.
 
 ``` python
+#Ejemplo MRO 1
+# Jugando con este ejemplo se puede ver como python 
+#gestiona la herencia entre varios niveles de clses
+class A():
+    def hablar(self):
+        return "Habla desde A"
+    
+class B():
+    def hablar(self):
+        return "Habla desde B"   
 
+class C(A):
+    pass
+    # def hablar(self):
+    #     return "Habla desde C"     
+    
+class D(B):
+    def hablar(self):
+        return "Habla desde D"
+
+class E(C,D):
+    pass
+    # def hablar(self):
+    #     return "Habla desde E"    
+
+objeto = E()
+print(objeto.hablar())  
+#>'Habla desde A'
+
+print(E.mro())  
+#>[<class '__main__.E'>, <class '__main__.C'>, <class '__main__.A'>, <class '__main__.D'>, <class '__main__.B'>, <class 'object'>]    
 ```
+<p align="center">
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/ejemploMRO.png"  height=100>
+</p>
+
+## Polimorfismo
+
+## Encapsulamiento
