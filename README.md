@@ -3,6 +3,20 @@
 <img src="https://github.com/jrguignan/Practica_POO/blob/main/images/programador.gif"  height=250>
 </p>
 
+# Índice
+* [Clase y Objeto](#Clase-y-Objeto)
+* [Herencia](#Herencia)
+  * [Herencia Simple](#Herencia-Simple)
+  * [Herencia Gerárquica](#Herencia-Gerárquica)
+  * [Herencia Multiple](#Herencia-Multiple) 
+* [MRO - Método de Resolución de Orden](#MRO---Método-de-Resolución-de-Orden)
+* [Polimorfismo](#Polimorfismo)
+  * [Paramétrico](#Paramétrico)
+  * [De Herencia o Subclases](#De-Herencia-o-Subclases)
+* [Encapsulamiento](#Encapsulamiento)
+
+
+
 ## Clase y Objeto 
 
 Clase: la receta que se debe seguir para construir un objeto. Nos perminte definir las caracteristicas del objeto y todo lo referencie a éste.
@@ -343,3 +357,71 @@ usuario.__contraseña
 #>AttributeError  
 
 ```
+
+Exiten los métodos setter, getter y deleter que permiten agregar, modificar o borrar un atributo privado a traves del uso de los decoradores.
+
+### Getter - Setter - Deleter
+```python
+class Persona:
+    def __init__(self, nombre, edad):
+        self._nombre = nombre
+        self._edad = edad
+
+    # Getter
+    @property
+    def nombre(self):
+        return self._nombre
+
+    @property
+    def edad(self):
+        return self._edad
+
+    # Setter
+    @nombre.setter
+    def nombre(self, nuevo_nombre):
+        self._nombre = nuevo_nombre
+
+    @edad.setter
+    def edad(self, nueva_edad):
+        self._edad = nueva_edad
+
+    # Deleter
+    @nombre.deleter
+    def nombre(self):
+        del self._nombre
+
+    @edad.deleter
+    def edad(self):
+        del self._edad
+
+# Crear un objeto de la clase Persona
+persona1 = Persona("Juan", 30)
+
+# Obtener valores usando los getters
+print("Nombre:", persona1.nombre)
+#>Nombre: Juan
+print("Edad:", persona1.edad)
+#>Edad: 30
+
+# Cambiar valores usando los setters
+persona1.nombre = "Pedro"
+persona1.edad = 35
+
+print("Nuevo nombre:", persona1.nombre)
+#>Nuevo nombre: Pedro
+
+print("Nueva edad:", persona1.edad)
+#>Nueva edad: 35
+
+# Eliminar atributos usando los deleter
+del persona1.nombre
+del persona1.edad
+
+# Esto provocará un error porque hemos eliminado los atributos
+print("Nombre:", persona1.nombre)
+
+```
+
+
+
+
