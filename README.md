@@ -324,6 +324,22 @@ existen más tipos de polimorfismo baso el mismo principio.
 
 ## Encapsulamiento
 
+Se utiliza para hacer inaccesible ciertos métodos y atributos para protegerlos. Sólo se pueden acceder bajo determinadas normas predefinidas dentro de la clase.
+
 ```python
+
+class Usuario():
+    def __init__(self):
+      self.nombre = "Matias"
+      #Al colocar __ no me deja acceder al atributo de manera normal.
+      #es como si no exitiese.
+      self.__contraseña = 1234
+
+usuario=Usuario()     
+usuario.nombre
+#>'Matias'
+
+usuario.__contraseña
+#>AttributeError  
 
 ```
