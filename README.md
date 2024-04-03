@@ -303,6 +303,7 @@ print(gato.sonido())
 #>Miau
 
 #Usando la misma funcion obtengo dirente sonido
+#polimorfismo parametrico
 def hacer_sonido(animal):
     print(animal.sonido())
 
