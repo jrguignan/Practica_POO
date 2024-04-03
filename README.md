@@ -75,7 +75,7 @@ celular1 = Celular("Applet","45mp", "Gris") #Instanciar objeto
 #Aplicar el metodo al objeto
 modelo1.llamar()    
 ```
-
+<br>[Volver al Índice](#Índice)
 
 ## Herencia
 Permite tener a la **clase hija**  acceder a todos los métodos y tener los atributos de la **clase padre**.
@@ -136,6 +136,7 @@ Persona es la **clase padre** de Trabajador o es la **superclase** de la clase T
 Trabajador es la **clase hija** de Persona o es la **subclase** de la clase Persona.
 
 **Nota:** super() nos perminte llamar al método padre, sin nombrarlo y tambien nos permite entrar a métodos de la clase padre, aún si el método está reescrito en la clase hija.
+<br>[Volver al Índice](#Índice)
 
 ### Herencia Gerárquica
 Cuando varias clases tienen una única clase padre. Es como la herencia simple pero agregando más subclases o clases hijas.
@@ -189,6 +190,7 @@ print(persona.presentarse_padre())
 print(persona.presentarse_hija())
 #>Mi habilidad es: Pintar, clase hija
 ```
+<br>[Volver al Índice](#Índice)
 
 ### MRO - Método de Resolución de Orden
 Hace referencia a como se buscan los métodos y los atributos en las clases. Da el orden de cuales son los métodos y atributos que heredad las **clases hijas** de las **clases padres**.
@@ -272,6 +274,7 @@ print(E.mro())
 </p>
 
 Primero se busca el método en E, Luego debería buscar primero en D y luego en C, pero al tener como herencia comun B, para D y C, primero busca en C y luego en A, si no consigue el método ya busca en B. 
+<br>[Volver al Índice](#Índice)
 
 ## Polimorfismo
 
@@ -335,6 +338,8 @@ print(gato.sonido())
 #>Miau
 ```
 existen más tipos de polimorfismo baso el mismo principio.
+
+<br>[Volver al Índice](#Índice)
 
 ## Encapsulamiento
 
