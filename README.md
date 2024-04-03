@@ -369,22 +369,22 @@ Exiten los métodos setter, getter y deleter que permiten agregar, modificar o b
 ```python
 class Persona:
     def __init__(self, nombre, edad):
-        self._nombre = nombre
-        self._edad = edad
+        self.__nombre = nombre
+        self.__edad = edad
 
     # Getter
     @property
     def nombre(self):
-        return self._nombre
+        return self.__nombre
 
     @property
     def edad(self):
-        return self._edad
+        return self.__edad
 
     # Setter
     @nombre.setter
     def nombre(self, nuevo_nombre):
-        self._nombre = nuevo_nombre
+        self.__nombre = nuevo_nombre
 
     @edad.setter
     def edad(self, nueva_edad):
@@ -393,11 +393,11 @@ class Persona:
     # Deleter
     @nombre.deleter
     def nombre(self):
-        del self._nombre
+        del self.__nombre
 
     @edad.deleter
     def edad(self):
-        del self._edad
+        del self.__edad
 
 # Crear un objeto de la clase Persona
 persona1 = Persona("Juan", 30)
