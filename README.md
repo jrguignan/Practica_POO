@@ -236,6 +236,8 @@ print(E.mro())
 
 Primero se busca e método en E, al no encontrarlo pasa a C, porque E hereda primero de C y luego de D, luego sigue buscando la rama de c, hasta encontrarla en A. Si no lo encotrara en A, seguiria a D hasta buscan en B.
 
+<br>[Volver al Índice](#Índice)
+
 ``` python
 #Ejemplo MRO 2
 class A():
@@ -313,6 +315,8 @@ hacer_sonido(perro)
 ```
 Estos ejemplos sirven en python por ser de tipado dinámico, pero en otro lenguajes, se debe utilizar la herencia para llevarlos acabo.
 
+<br>[Volver al Índice](#Índice)
+
 ###  Herencia o Subclases
 ```python
 #Ejemplo polimorfismo de herencia
@@ -337,7 +341,7 @@ print(perro.sonido())
 print(gato.sonido())
 #>Miau
 ```
-existen más tipos de polimorfismo baso el mismo principio.
+Existen más tipos de polimorfismo baso el mismo principio.
 
 <br>[Volver al Índice](#Índice)
 
