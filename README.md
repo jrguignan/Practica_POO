@@ -435,7 +435,7 @@ print("Nombre:", persona1.nombre)
 ### Métodos Especiales
 
 <p align="center">
-<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/metodos especiales.png"  height=300>
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/metodos especiales.png"  height=800>
 </p>
 
 
