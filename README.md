@@ -434,8 +434,10 @@ print("Nombre:", persona1.nombre)
 
 ### Métodos Especiales
 
+Son métodos predefinidos en Python que tienen un doble guion bajo al principio y al final de sus nombres. Estos métodos especiales son invocados automáticamente por el intérprete en circunstancias específicas.
+
 <p align="center">
-<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/metodos especiales.png"  height=800>
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/metodos especiales.png"  height=700>
 </p>
 
 
