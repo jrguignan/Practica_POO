@@ -79,7 +79,7 @@ modelo1.llamar()
 
 ## Herencia
 Permite tener a la **clase hija**  acceder a todos los métodos y tener los atributos de la **clase padre**.
-La herencia nos permite ahorrar códígo, al utilizar clases padre. Es como usar una receta base a la cual al final de la preparación se le agrega otro ingrediente, cambiando el nombre de la receta original. Ejemplor: galleta - galleta con chispas de chocolate. 
+La herencia nos permite ahorrar códígo, al utilizar clases padre. Es como usar una receta base a la cual al final de la preparación se le agrega otro ingrediente, cambiando el nombre de la receta original. Ejemplo: galleta - galleta con chispas de chocolate. 
 
 ```python
 #Ejemplo: Herencia
