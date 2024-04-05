@@ -79,7 +79,7 @@ modelo1.llamar()
 
 ## Herencia
 Permite tener a la **clase hija**  acceder a todos los métodos y tener los atributos de la **clase padre**.
-La herencia nos permite ahorrar códígo, al utilizar clases padre. Es como usar una receta base a la cual al final de la preparación se le agrega otro ingrediente, cambiando el nombre de la receta original. Ejemplo: galleta - galleta con chispas de chocolate. 
+La herencia nos permite ahorrar códígo, al utilizar clases padre. Es como usar una receta base a la cual al final de la preparación se le agrega otro ingrediente, cambiando el nombre de la receta original. Ejemplo: A partir de galleta, se puede crear galleta con chispas de chocolate y galletas con frutos secos,sólo agrepando un ingrediente más ingrediente. 
 
 ```python
 #Ejemplo: Herencia
@@ -193,7 +193,7 @@ print(persona.presentarse_hija())
 <br>[Volver al Índice](#Índice)
 
 ### MRO - Método de Resolución de Orden
-Hace referencia a como se buscan los métodos y los atributos en las clases. Da el orden de cuales son los métodos y atributos que heredad las **clases hijas** de las **clases padres**.
+Hace referencia a cómo se buscan los métodos y los atributos en las clases. Da el orden de cuales son los métodos y atributos que heredad las **clases hijas** de las **clases padres**.
 
 *Nota:* print( clase.mro() ) -> muestra los caminos de herencia de clase.
 
