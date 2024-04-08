@@ -1,6 +1,6 @@
 # Práctica - Progamación Orientada a Objetos
 <p align="center">
-<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/programador.gif"  height=250>
+<img src="https://github.com/jrguignan/Practica_POO/blob/main/images/programador.gif"  height=200>
 </p>
 
 # Índice
