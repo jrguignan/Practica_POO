@@ -14,6 +14,7 @@
   * [Paramétrico](#Paramétrico)
   * [De Herencia o Subclases](#De-Herencia-o-Subclases)
 * [Encapsulamiento](#Encapsulamiento)
+* [Autor](#Autor)
 
 
 
@@ -440,6 +441,11 @@ Son métodos predefinidos en Python que tienen un doble guion bajo al principio 
 <img src="https://github.com/jrguignan/Practica_POO/blob/main/images/metodos especiales.png"  height=700>
 </p>
 
+
+# Autor
+- José R. Guignan
+- Mail: joserguignan@gmail.com
+- Linkedin: [https://www.linkedin.com/in/jrguignan](https://www.linkedin.com/in/jrguignan)
 
 
 
